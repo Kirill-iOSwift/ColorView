@@ -12,6 +12,7 @@
 		ED8F7C452AB36205006B8B8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED8F7C442AB36205006B8B8A /* Assets.xcassets */; };
 		ED8F7C482AB36205006B8B8A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED8F7C472AB36205006B8B8A /* Preview Assets.xcassets */; };
 		ED8F7C832ABF3043006B8B8A /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8F7C822ABF3043006B8B8A /* TextFieldView.swift */; };
+		EDB6325E2AC8227500818D0B /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB6325D2AC8227500818D0B /* SliderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		ED8F7C442AB36205006B8B8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED8F7C472AB36205006B8B8A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		ED8F7C822ABF3043006B8B8A /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
+		EDB6325D2AC8227500818D0B /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,9 +57,10 @@
 			children = (
 				ED8F7C402AB36204006B8B8A /* ColorViewApp.swift */,
 				ED8F7C422AB36204006B8B8A /* ContentView.swift */,
+				ED8F7C822ABF3043006B8B8A /* TextFieldView.swift */,
+				EDB6325D2AC8227500818D0B /* SliderView.swift */,
 				ED8F7C442AB36205006B8B8A /* Assets.xcassets */,
 				ED8F7C462AB36205006B8B8A /* Preview Content */,
-				ED8F7C822ABF3043006B8B8A /* TextFieldView.swift */,
 			);
 			path = ColorView;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED8F7C432AB36204006B8B8A /* ContentView.swift in Sources */,
+				EDB6325E2AC8227500818D0B /* SliderView.swift in Sources */,
 				ED8F7C412AB36204006B8B8A /* ColorViewApp.swift in Sources */,
 				ED8F7C832ABF3043006B8B8A /* TextFieldView.swift in Sources */,
 			);
